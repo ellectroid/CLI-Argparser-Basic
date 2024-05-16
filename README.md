@@ -7,7 +7,7 @@ Provides:
  - Length of the name part, excluding null-term
  - Length of the value part, excluding null-term
  - Writes name to the output buffer, appends null-term, output buffer length limited
- - Writes value to output buffer, appends null-term, output buffer length limiter
+ - Writes value to output buffer, appends null-term, output buffer length limited
 
 Example input:
 >argparser.exe myarg1=myval1 myarg2 myarg3= =myval4
